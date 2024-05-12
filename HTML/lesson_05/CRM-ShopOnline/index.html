@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>CRM-ShopOnline</title>
+</head>
+
+<body>
+  
+  <form 
+  action="https://jsonplaceholder.typicode.com/posts"
+  method="POST"
+  >
+    <h1>Добавить товар</h1>
+    
+    <fieldset>
+      <label for="product_name">Наименование</label>
+      <br>
+      <input type="text" name="name" id="product_name">
+      <br>
+
+      <label for="category">Категория</label>
+      <br>
+      <input type="text" name="category" id="category">
+      <br>
+
+      <label for="units">Единицы измерения</label>
+      <br>
+      <input type="text" name="units" id="units">
+      <br>
+
+      <!-- Активация поля дисконт делается на JS верно? -->
+      <label for="dis">Дисконт</label>
+      <br>
+      <input type="checkbox" id="dis">
+      <input type="text" name="discount" disabled>
+      <br>
+
+      <label for="description">Описание</label>
+      <br>
+      <textarea name="description" id="description"></textarea>
+      <br>
+
+      <label for="count">Количество</label>
+      <br>
+      <input type="number" name="count" id="count" min="1">
+      <br>
+
+      <label for="price">Цена</label>
+      <br>
+      <input inputmode="numeric" name="price" id="price">
+      <br>
+
+      <input type="file" accept="image/jpeg" name="image">
+  </fieldset>
+  <button type="submit">Добавить товар</button>
+  </form>
+</body>
+</html>
