@@ -1,0 +1,74 @@
+html {
+  font-size: 20px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  position: relative;
+  min-width: 320px;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  color: #dedede;
+  background-color: #1b1a1bd3;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.article {
+  margin: 0 auto;
+  width: 800px;
+}
+
+.text {
+  text-align: justify;
+}
+
+.title {
+  font-size: 2.5rem;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.subtitle {
+  text-decoration: underline;
+}
+
+.img {
+  display: block;
+  margin: 0 auto;
+  width: 700px;
+}
+
+.figcaption {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.text .link {
+  text-decoration: underline;
+}
+
+.item {
+  margin-bottom: 1rem;
+}
