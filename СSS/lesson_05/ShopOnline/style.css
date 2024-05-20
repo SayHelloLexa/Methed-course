@@ -26,6 +26,7 @@ body {
 }
 
 .back-link {
+  display: flex;
   text-decoration: none;
   font-weight: 700;
   font-size: 16px;
@@ -33,7 +34,12 @@ body {
 }
 
 .back-link:before {
-  content: url("img/keyboard_backspace.svg");
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin-right: 15px;
+  background-image: url("img/keyboard_backspace.svg");
 }
 
 .author {
@@ -42,3 +48,10 @@ body {
   font-style: normal;
   color: #000;
 }
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
