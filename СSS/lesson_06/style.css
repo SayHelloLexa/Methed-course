@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "Droid Serif Bold";
+  src: local("Droid Serif Bold"), local("Droid-Serif-Bold"),
+  url("fonts/DroidSerif-Bold.woff2") format("woff2"),
+  url("fonts/DroidSerif-Bold.woff") format("woff");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Lato Regular";
+  src: local("Lato Regular"), local("Lato-Regular"),
+  url("fonts/lato-regular.woff") format("woff2"),
+  url("fonts/lato-regular.woff") format("woff");
+  font-weight: 400;
+  font-display: fallback;
+}
+
+body {
+  font-family: "Lato Regular", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.title {
+  font-family: "Droid Serif Bold", "Times New Roman", serif;
+  font-weight: 700;
+}
