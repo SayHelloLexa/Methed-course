@@ -1,0 +1,276 @@
+* {
+  box-sizing: border-box;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: #1B1A1B;
+}
+
+.wrapper {
+  width: 1200px;
+  padding: 30px;
+  margin: 0 auto;
+}
+
+.header {
+  position: relative;
+  width: 1180px;
+  height: 823px;
+  margin: 146px auto 100px auto;
+}
+
+.header:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: block;
+  width: 675px;
+  height: 762px;
+  background-image: url("img/img/header-picture.png");
+}
+
+.title {
+  font-weight: 900;
+  font-size: 150px;
+  line-height: 100%;
+  text-transform: uppercase;
+  letter-spacing: -.1em;
+  color: #ffff;
+}
+
+.title-description {
+  margin-left: 100px;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 179%;
+  color: #ffff;
+}
+
+.halls {
+  width: 1180px;
+}
+
+.halls-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 125%;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffff;
+}
+
+.halls-title {
+  margin-bottom: 60px;
+}
+
+.item {
+  width: 100%;
+  height: 710px;
+  padding: 275px 485px;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 60px;
+}
+
+.item:last-child {
+  margin-bottom: 100px;
+}
+
+.vibes {
+  background-image: url("img/img/80\'s\ vibes.jpg")
+}
+
+.starwars {
+  background-image: url("img/img/star-wars.jpg")
+}
+
+.wildwest {
+  background-image: url("img/img/wild-west.jpg")
+}
+
+.neon {
+  background-image: url("img/img/neon-style.jpg")
+}
+
+.hall-link {
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 114%;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+}
+
+.form-title {
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 125%;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffff;
+}
+
+.reservation-form {
+  margin-bottom: 100px;
+  color: #ffff
+}
+
+.about-title {
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 125%;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+}
+
+.about-article {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  color: #ffff;
+}
+
+.blockquote {
+  width: 1180px;
+  margin-top: 70px;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 114%;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.quote:before {
+  content: "“";
+  display: inline-block;
+  margin-right: 16px;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 114%;
+  color: #6c0287;
+}
+
+.quote:after {
+  content: "”";
+  display: inline-block;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 114%;
+  color: #6c0287;
+}
+
+.author {
+  display: flex;
+  justify-content: space-between;
+  width: 389px;
+  height: 84px;
+  margin-left: 700px;
+  margin-top: 40px;
+  font-weight: 400;
+  font-size: 20px;
+  text-transform: none;
+  line-height: 140%;
+}
+
+.cite {
+  font-style: normal;
+}
+
+.faq {
+  margin-bottom: 100px;
+}
+
+.faq-title {
+  margin-bottom: 40px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 125%;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+}
+
+.contacts-title {
+  margin-bottom: 54px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 125%;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+}
+
+.location-container {
+  margin-bottom: 38px;
+  display: flex;
+  width: 415px;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 117%;
+  color: #fff;
+}
+
+.address {
+  font-style: normal;
+}
+
+.tel-container {
+  display: flex;
+  width: 415px;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 117%;
+  color: #fff;
+}
+
+.tel {
+  font-weight: 700;
+  font-size: 24px;
+  text-decoration: none;
+  line-height: 117%;
+  color: #fff;
+}
+
+.mail-container {
+  display: flex;
+  width: 415px;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 117%;
+  color: #fff;
+}
+
+.mail {
+  font-weight: 700;
+  font-size: 24px;
+  text-decoration: none;
+  line-height: 117%;
+  color: #fff;
+}
+
+.social-link {
+  display: flex;
+  margin-top: 39px;
+  width: 280px;
+  justify-content: space-between;
+}
