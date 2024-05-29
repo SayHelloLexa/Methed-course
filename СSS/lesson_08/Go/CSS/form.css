@@ -1,0 +1,14 @@
+.form-title {
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 125%;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffff;
+}
+
+.reservation-form {
+  padding-top: 100px;
+  color: #ffff
+}

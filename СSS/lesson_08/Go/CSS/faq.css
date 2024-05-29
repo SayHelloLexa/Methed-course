@@ -5,6 +5,20 @@ ol {
     margin: 0;
 }
 
+.faq {
+  padding-top: 100px;
+}
+
+.faq-title {
+  margin-bottom: 40px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 125%;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+}
+
 .faq-question {
   background-color: #fff;
   color: #1C1A1A;
@@ -12,7 +26,6 @@ ol {
   font-size: 24px;
   padding: 30px 70px;
   margin-bottom: 20px;
-
   display: flex; 
   align-items: center; 
   justify-content: space-between;
@@ -25,8 +38,7 @@ ol {
 
 .faq-question:after {
   content: "";
-  background-image: url("../img/img/open-purple.svg");
-  
+  background-image: url("../img/open-purple.svg");
   display: block;
   width: 46px;
   height: 46px;
@@ -34,7 +46,7 @@ ol {
 
 .faq-question:nth-child(2n):after {
   content: "";
-  background-image: url("../img/img/open.svg");
+  background-image: url("../img/open.svg");
 }
 
 .faq-question:last-child {
