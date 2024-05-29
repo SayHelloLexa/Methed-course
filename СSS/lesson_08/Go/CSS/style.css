@@ -94,6 +94,10 @@ iframe {
   transform: scale(0);
 }
 
+blockquote {
+  margin: 0;
+}
+
 .container {
   max-width: 1240px;
   padding: 30px;
@@ -218,8 +222,7 @@ iframe {
 .blockquote {
   display: flex;
   flex-direction: column;
-  width: 100%;
-  margin-top: 70px;
+  padding-top: 70px;
   font-weight: 400;
   font-size: 44px;
   line-height: 114%;
@@ -266,6 +269,10 @@ iframe {
 
 .cite {
   font-style: normal;
+}
+
+.faq {
+  padding-top: 100px;
 }
 
 .faq-title {
