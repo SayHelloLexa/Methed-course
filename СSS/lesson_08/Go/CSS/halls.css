@@ -8,8 +8,9 @@
   color: #ffff;
 }
 
-.halls {
-  padding-top: 100px;
+.halls__container {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .halls-list {

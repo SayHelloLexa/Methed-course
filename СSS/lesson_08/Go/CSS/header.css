@@ -1,10 +1,9 @@
-.header {
-  height: 969px;
+.hero__container {
+  height: 1019px;
   padding-top: 146px;
-  background-image: url("../img/banner.png");
-  background-position: bottom right;
-  background-repeat: no-repeat;
+  padding-bottom: 50px;
 }
+
 
 .title {
   font-weight: 900;
@@ -13,6 +12,17 @@
   text-transform: uppercase;
   letter-spacing: -.1em;
   color: #ffff;
+}
+
+.title:after {
+  content: "";
+  position: absolute;
+  bottom: 50px;
+  right: 30px;
+  display: block;
+  width: 675px;
+  height: 762px;
+  background: url("../img/banner.png") no-repeat bottom right;
 }
 
 .title-description {

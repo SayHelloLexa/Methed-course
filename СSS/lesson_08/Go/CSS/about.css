@@ -1,5 +1,6 @@
-.about {
-  padding-top: 100px;
+.about__container {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .about-title {
@@ -56,7 +57,7 @@
 .author {
   display: flex;
   justify-self: end;
-  margin-left: 752px;
+  padding-left: 752px;
   column-gap: 30px;
   row-gap: 40px;
   width: 100%;

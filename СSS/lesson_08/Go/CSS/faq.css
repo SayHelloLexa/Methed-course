@@ -5,8 +5,9 @@ ol {
     margin: 0;
 }
 
-.faq {
-  padding-top: 100px;
+.faq__container {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .faq-title {
