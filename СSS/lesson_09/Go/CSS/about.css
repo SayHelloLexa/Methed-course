@@ -3,24 +3,14 @@
   padding-bottom: 50px;
 }
 
-.about__title {
-  margin-bottom: 50px;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 125%;
-  text-transform: uppercase;
-  text-align: center;
-  color: #fff;
-}
-
-.about__article {
+.article {
   font-weight: 400;
   font-size: 20px;
   line-height: 140%;
   color: #ffff;
 }
 
-.about__blockquote {
+.blockquote {
   display: flex;
   flex-direction: column;
   padding-top: 70px;
@@ -31,11 +21,11 @@
   color: #fff;
 }
 
-.about__quote {
+.quote {
   margin-bottom: 40px;
 }
 
-.about__quote:before {
+.quote:before {
   content: "“";
   display: inline-block;
   margin-right: 16px;
@@ -45,7 +35,7 @@
   color: #6c0287;
 }
 
-.about__quote:after {
+.quote:after {
   content: "”";
   display: inline-block;
   font-weight: 900;
@@ -68,6 +58,6 @@
   line-height: 140%;
 }
 
-.about__author-cite {
+.cite {
   font-style: normal;
 }

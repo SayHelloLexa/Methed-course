@@ -6,13 +6,3 @@
   padding-top: 50px;
   padding-bottom: 50px;
 }
-
-.reservation-form__title {
-  margin-bottom: 50px;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 125%;
-  text-transform: uppercase;
-  text-align: center;
-  color: #ffff;
-}

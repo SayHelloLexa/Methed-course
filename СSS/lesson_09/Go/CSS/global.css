@@ -105,3 +105,12 @@ blockquote {
   margin: 0 auto;
 }
 
+.container__title {
+  margin-bottom: 54px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 125%;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+}

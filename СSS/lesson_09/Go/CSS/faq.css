@@ -3,17 +3,7 @@
   padding-bottom: 50px;
 }
 
-.faq__title {
-  margin-bottom: 40px;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 125%;
-  text-transform: uppercase;
-  text-align: center;
-  color: #fff;
-}
-
-.faq__list-item {
+.faq-list__item {
   background-color: #fff;
   color: #1C1A1A;
   font-weight: 700;
@@ -25,12 +15,12 @@
   justify-content: space-between;
 }
 
-.faq__list-item:nth-child(2n) {
+.faq-list__item:nth-child(2n) {
   background-color: #440F51;
   color: #fff;
 }
 
-.faq__list-item:after {
+.faq-list__item:after {
   content: "";
   background-image: url("../img/open-purple.svg");
   display: block;
@@ -38,11 +28,11 @@
   height: 46px;
 }
 
-.faq__list-item:nth-child(2n):after {
+.faq-list__item:nth-child(2n):after {
   content: "";
   background-image: url("../img/open.svg");
 }
 
-.faq__list-item:last-child {
+.faq-list__item:last-child {
   margin: 0;
 }
