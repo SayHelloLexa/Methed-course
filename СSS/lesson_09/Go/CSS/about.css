@@ -1,0 +1,73 @@
+.about__container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.about__title {
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 125%;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+}
+
+.about__article {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  color: #ffff;
+}
+
+.about__blockquote {
+  display: flex;
+  flex-direction: column;
+  padding-top: 70px;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 114%;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.about__quote {
+  margin-bottom: 40px;
+}
+
+.about__quote:before {
+  content: "“";
+  display: inline-block;
+  margin-right: 16px;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 114%;
+  color: #6c0287;
+}
+
+.about__quote:after {
+  content: "”";
+  display: inline-block;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 114%;
+  color: #6c0287;
+}
+
+.about__author {
+  display: flex;
+  justify-self: end;
+  padding-left: 752px;
+  column-gap: 30px;
+  row-gap: 40px;
+  width: 100%;
+  height: 84px;
+  font-weight: 400;
+  font-size: 20px;
+  text-transform: none;
+  line-height: 140%;
+}
+
+.about__author-cite {
+  font-style: normal;
+}
