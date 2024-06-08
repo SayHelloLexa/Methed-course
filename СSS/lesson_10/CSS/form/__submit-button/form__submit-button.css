@@ -1,0 +1,10 @@
+.form__submit-button {
+  border-radius: 6px;
+  width: 200px;
+  height: 39px;
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #fff;
+  background: #6d5bd0;
+}

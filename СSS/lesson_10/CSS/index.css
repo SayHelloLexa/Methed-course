@@ -1,0 +1,14 @@
+@import url("normalize.css");
+@import url("global.css");
+@import url("modal/modal.css");
+@import url("modal/modal__exit-button.css");
+@import url("form/__content/form__content.css");
+@import url("form/__title/form__title.css");
+@import url("form/__label/form__label.css");
+@import url("form/__input/form__input.css");
+@import url("form/checkbox-container.css");
+@import url("form/__input/form__input_checkbox.css");
+@import url("form/__input/form-input_disabled.css");
+@import url("form/__textarea/form__textarea.css");
+@import url("form/__button-container/form__button-container.css");
+@import url("form/__submit-button/form__submit-button.css");

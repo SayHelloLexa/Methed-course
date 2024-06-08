@@ -1,0 +1,9 @@
+.modal {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 106px 28px 106px;
+  max-width: 792px;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+  background: #f2f0f9;
+}
