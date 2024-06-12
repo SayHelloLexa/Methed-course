@@ -9,9 +9,9 @@
 <body>
 
   <div class="modal">
-    <a class="modal__exit-button" href="#">
+    <button class="modal__exit-button">
       <img src="img/circle-button.svg" alt="exit">
-    </a>
+    </button>
 
     <div class="container">
       <form
@@ -41,10 +41,10 @@
           <textarea class="form__textarea" name="description" id="description"></textarea>
 
           <label class="form__label" for="quantity">Количество</label>
-          <input class="form__input" type="number" name="quantity" id="quantity" min="1">
+          <input class="form__input form__input_number" type="number" name="quantity" id="quantity" min="1">
 
           <label class="form__label" for="price">Цена</label>
-          <input class="form__input" type="number" name="price" id="price" min="1">
+          <input class="form__input form__input_number" type="number" name="price" id="price" min="1">
         </div>
 
         <div class="form__button-container">
