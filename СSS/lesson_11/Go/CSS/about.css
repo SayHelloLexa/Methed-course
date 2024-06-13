@@ -3,6 +3,15 @@
   padding-bottom: 50px;
 }
 
+.container__title {
+  margin-bottom: 40px;
+}
+
+.flex-container {
+  display: flex;
+  column-gap: 80px;
+}
+
 .article {
   font-weight: 400;
   font-size: 20px;
@@ -10,10 +19,20 @@
   color: #ffff;
 }
 
+.article__container {
+  width: 500px;
+}
+
+.paragraph {
+  white-space: pre-line;
+  text-align: left;
+}
+
 .blockquote {
   display: flex;
   flex-direction: column;
-  padding-top: 70px;
+  width: 500px;
+  padding-top: 48px;
   font-weight: 400;
   font-size: 44px;
   line-height: 114%;
@@ -28,7 +47,6 @@
 .quote:before {
   content: "“";
   display: inline-block;
-  margin-right: 16px;
   font-weight: 900;
   font-size: 44px;
   line-height: 114%;
@@ -47,7 +65,7 @@
 .about__author {
   display: flex;
   justify-self: end;
-  padding-left: 752px;
+  padding-left: 111px;
   column-gap: 30px;
   row-gap: 40px;
   width: 100%;
