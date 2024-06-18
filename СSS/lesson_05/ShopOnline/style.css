@@ -1,4 +1,16 @@
 body {
+  font-family: "Lato Regular", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.title {
+  font-family: "Droid Serif Bold", "Times New Roman", serif;
+  font-weight: 700;
+}
+
+
+body {
   font-family: system-ui, 
   -apple-system, 
   BlinkMacSystemFont, 
