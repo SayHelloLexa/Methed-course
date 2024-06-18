@@ -3,17 +3,17 @@
   padding-right: 100px;
 }
 
-.reviews__blockquote {
+.reviews__item {
   display: flex;
+  column-gap: 20px;
 }
 
-.reviews__blockquote:not(:last-child) {
+.reviews__item:not(:last-child) {
   margin-bottom: 50px;
 }
 
 .reviews__img {
   margin-bottom: 11px;
-  margin-right: 20px;
 }
 
 .reviews__quote {
