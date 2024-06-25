@@ -1,0 +1,17 @@
+.figure_border {
+  margin-bottom: 30px;
+  border-top: 1px solid #000000;
+}
+
+.img_display_block {
+  display: block;
+  margin-bottom: 0;
+}
+
+.figcaption_color_gray {
+  padding: 15px 30px 15px 30px;
+  border: 1px solid #000000;
+  border-top: none;
+  margin-bottom: 0;
+  color: #5e5e5e;
+}

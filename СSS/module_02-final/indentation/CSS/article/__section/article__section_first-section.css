@@ -1,0 +1,19 @@
+.img_float_left {
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.img_float_right {
+  float: right;
+  margin-left: 40px;
+}
+
+.text-container {
+  display: flow-root;
+}
+
+.text-container__paragraph:not(:last-child) {
+  margin-bottom: 30px;
+}
+
