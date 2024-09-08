@@ -1,0 +1,596 @@
+.promo {
+  padding-top: 30px; 
+  padding-bottom: 189px;
+}
+
+.promo__list {
+  display: grid;
+  grid-template-columns: repeat(6, 245px);
+  grid-template-rows: repeat(4, 245px);
+  gap: 60px;
+}
+
+.promo__item {
+  position: relative;
+  color: var(--white);
+}
+
+.promo__description {
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.promo__item {
+  border-radius: 20px;
+  background-repeat: no-repeat;
+}
+
+.promo__item_book {
+  grid-column: 1;
+  grid-row: 1;
+  padding: 97px 35px 20px 20px;
+  background-image: url("../img/promo/promo__list/book.jpg");
+}
+
+.promo__item_book .word-wrapper {
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.promo__item_book .word-wrapper_hyphen {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.promo__item_time {
+  grid-column: 2;
+  grid-row: 1;
+  padding: 78px 25px 20px 14px;
+  background-image: url("../img/promo/promo__list/time.jpg");
+}
+
+.promo__item_time .promo__description {
+  margin-bottom: 20px;
+}
+
+.discount {
+  position: absolute;
+  width: 88px;
+  height: 88px;
+  padding: 29px 8px 25px 9px;
+  border-radius: 100%;
+  background-color: #ffbd13;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.promo__item_time .discount {
+  right: 20px;
+  bottom: 17px;
+}
+
+.promo__item_offer {
+  grid-column: 3 / 5;
+  grid-row: 1 / 3;
+  padding: 350px 20px 22px 20px;
+  background-image: url("../img/promo/promo__list/spec-offer.jpg");
+}
+
+.promo__description_block {
+  max-width: 508px;
+  padding: 26px 24px 26px 23px;
+  border-radius: 20px;
+  background-color: #38c0eb;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.promo__description_block .word-wrapper {
+  font-size: 56px;
+  font-weight: 700;
+}
+
+.promo__item_presents {
+  grid-column: 5 / 7;
+  padding: 113px 180px 30px 30px;
+  background-image: url("../img/promo/promo__list/presents.jpg");
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.promo__item_presents .promo__description {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+.promo__item_sneakers {
+  grid-column: 1 / 3;
+  grid-row: 2;
+  background-image: url("../img/promo/promo__list/sneakers.jpg");
+}
+
+.promo__item_sneakers .discount {
+  left: 20px;
+  top: 20px;
+}
+
+.promo__item_december {
+  grid-column: 5 / 7;
+  padding: 160px 147px 30px 30px;
+  background-image: url("../img/promo/promo__list/laptop.jpg");
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.promo__item_december .promo__description {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+.promo__item_december .discount {
+  right: 20px;
+  bottom: 20px;
+}
+
+.promo__item_new-year {
+  grid-column: 1 / 5;
+  grid-row: 3 / 5;
+  padding: 385px 467px 50px 50px;
+  background-image: url("../img/promo/promo__list/new-year.jpg");
+}
+
+.promo__item_new-year .promo__description {
+  max-width: 643px;
+  padding: 32px 41px 32px 42px;
+  border-radius: 20px;
+  background-color: var(--white);
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #f91155;
+}
+
+.promo__item_woman {
+  grid-row: 3 / 5;
+  background-image: url("../img/promo/promo__list/woman.jpg");
+}
+
+.promo__item_woman .discount {
+  right: 20px;
+  bottom: 20px;
+}
+
+.promo__item_chem {
+  padding: 147px 48px 20px 20px;
+  background-image: url("../img/promo/promo__list/chem.jpg");
+  font-weight: 700;
+}
+
+.promo__item_chem .promo__description {
+  font-weight: inherit;
+}
+
+.promo__item_chem .discount {
+  top: 20px; 
+  left: 20px;
+}
+
+.promo__item_end {
+  background-image: url("../img/promo/promo__list/tree-toys.jpg");
+}
+
+@media (max-width: 1024px) {
+  .promo {
+    padding-top: 11px;
+    padding-bottom: 69px;
+  }
+
+  .promo__list {
+    grid-template-columns: repeat(4, 217px);
+    grid-template-rows: repeat(6, 217px);
+    gap: 24px;
+  }
+
+  .promo__item {
+    border-radius: 1rem;
+  }
+
+  .promo__item_book {
+    padding: 132px 18px 20px 9px;
+    background-size: 217px;
+    font-size: 24px;
+  }
+
+  .promo__item_book .promo__description {
+    font-size: inherit;
+  }  
+
+  .promo__item_book .word-wrapper {
+    font-size: 30px;
+  }
+
+  .promo__item_book .word-wrapper_hyphen {
+    font-size: 24px;
+  }
+
+  .promo__item_time {
+    padding: 66px 31px 126px 9px;
+    background-size: 217px;
+    font-size: 24px;
+  }
+
+  .promo__item_time .promo__description {
+    font-size: inherit;
+  }
+
+  .promo__item_time .discount {
+    right: 9px;
+    bottom: 10px;
+  }
+
+  .promo__item_offer {
+    padding: 290px 22px 22px;
+    background-size: 458px 458px;
+  }
+
+  .promo__description_block {
+    max-width: 414px;
+    padding: 29px 25px;
+    font-size: 30px;
+  }
+
+  .promo__description_block .word-wrapper {
+    font-size: 40px;
+  }
+
+  .promo__item_sneakers {
+    background-size: 458px 217px;
+  }
+
+  .promo__item_presents {
+    grid-column: 1 / 3;
+    grid-row: 3;
+    padding: 110px 187px 20px 20px;
+    background-size: 458px 217px;
+    font-size: 30px;
+    line-height: 143%;
+  }
+
+  .promo__item_december {
+    grid-column: 1 / 3;
+    grid-row: 4;
+    padding: 158px 158px 20px 20px;
+    background-size: 458px 217px;
+    font-size: 30px;
+  }
+
+  .promo__item_december .discount {
+    right: 10px;
+    bottom: 7px
+  }
+
+  .promo__item_woman {
+    background-size: 217px 458px;
+  }
+
+  .promo__item_woman .discount {
+    right: 10px;
+    bottom: 7px
+  }
+
+  .promo__item_chem {
+    padding: 184px 19px 14px 14px;
+    background-size: 217px 217px;
+  }
+
+  .promo__item_chem .promo__description {
+    font-size: 20px;
+  }
+
+  .promo__item_chem .discount {
+    top: 13px;
+    left: 10px;
+  }
+
+  .promo__item_end {
+    background-size: 217px 217px;
+  }
+
+  .promo__item_new-year {
+    grid-column: 1 / 5;
+    grid-row: 5 / 7;
+    padding: 298px 397px 39px 30px;
+    background-size: 940px 418px;
+  }
+
+  .promo__item_new-year .promo__description {
+    max-width: 513px;
+    max-height: 85px;
+    padding: 27px 46px;
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .promo {
+    padding-top: 20px;
+    padding-bottom: 580px;
+  }
+
+  .promo__list {
+    grid-template-columns: repeat(9, 60px);
+    grid-template-rows: repeat(2, 140px) repeat(4, 60px) 337px;
+    gap: 20px;
+  }
+
+  .promo__item {
+    border-radius: 12px;
+  }
+
+  .discount {
+    width: 50px;
+    height: 50px;
+    padding: 18px 6px 14px 6px;
+    font-size: 1rem;
+  }
+
+  .promo__item_book {
+    grid-column: 1 / 3;
+    padding: 48px 4px 15px 10px;
+    background-size: 140px;
+    font-size: 20px;
+  }
+
+  .promo__item_book .word-wrapper {
+    font-size: 26px;
+  }
+
+  .promo__item_book .word-wrapper_hyphen {
+    font-size: 20px;
+  }
+
+  .promo__item_time {
+    grid-column: 3 / 5;
+    padding: 18px 25px 104px 5px;
+    background-size: 140px;
+    font-size: 1rem;
+  }
+
+  .promo__item_time .discount {
+    right: 10px;
+  }
+
+  .promo__item_offer {
+    grid-column: 5 / 10;
+    grid-row: 1 / 4;
+    padding: 309px 10px 10px;
+    background-size: 380px;
+  }
+
+  .promo__description_block {
+    max-width: 360px;
+    max-height: 61px;
+    padding: 1rem 28px;
+    border-radius: 12px;
+    font-size: 1rem
+  }
+
+  .promo__description_block .word-wrapper {
+    font-size: 26px;
+  }
+  
+  .promo__item_sneakers {
+    grid-column: 1 / 5;
+    background-size: 300px 140px;
+  }
+
+  .promo__item_sneakers .discount {
+    top: 10px;
+    left: 10px;
+  }
+  
+  .promo__item_presents {
+    grid-column: 1 / 5;
+    grid-row: 3 / 5;
+    padding: 82px 144px 20px 20px;
+    background-size: 300px 140px;
+    font-size: 1rem;
+  }
+
+  .promo__item_december {
+    grid-column: 1 / 5;
+    grid-row: 5 / 7;
+    padding: 101px 131px 20px 20px;
+    background-size: 300px 140px;
+    font-size: 1rem;
+  }
+
+  .promo__item_december .discount {
+    bottom: 10px;
+    right: 10px;
+  }
+
+  .promo__item_woman {
+    grid-column: 5 / 8;
+    grid-row: 4 / 7;
+    background-image: url("../img/promo/promo__list/woman_220.jpg");
+    background-size: 220px;
+    border-radius: 12px;
+  }
+
+  .promo__item_chem {
+    grid-column: 8 / 10;
+    grid-row: 4 / 6;
+    padding: 88px 26px 14px 14px;
+    background-size: 140px;
+  }
+
+  .promo__item_chem .promo__description {
+    font-size: 1rem;
+  }
+
+  .promo__item_end {
+    grid-column: 8 / 10;
+    grid-row: 6;
+    background-image: url("../img/promo/promo__list/tree-toys_140x60.jpg");
+    background-size: 140px 60px;
+  }
+
+  .promo__item_new-year {
+    grid-column: 1 / 10;
+    grid-row: 7;
+    padding: 243px 327px 26px 26px;
+    background-size: 700px 337px;
+  }
+
+  .promo__item_new-year .promo__description {
+    max-width: 347px;
+    padding: 22px 33px;
+    border-radius: 12px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 320px) {
+  .promo {
+    padding-top: calc(20px / 2);
+    padding-bottom: 234px;
+  }
+
+  .promo__list {
+    grid-template-columns: repeat(2, 130px);
+    grid-template-rows: 130px 118px 280px repeat(2, 118px) repeat(2, 130px) 123px;
+  }
+
+  .promo__item {
+    border-radius: 8px;
+  }
+
+  .promo__item_book {
+    grid-column: 1;
+    padding: 76px 55px 10px 10px;
+    background-size: 130px;
+    font-size: 12px;
+  }
+
+  .promo__item_book .word-wrapper {
+    font-size: 1rem;
+  }
+
+  .promo__item_book .word-wrapper_hyphen {
+    font-size: 12px;
+  }
+
+  .promo__item_time {
+    grid-column: 2;
+    padding: 31px 37px 86px 10px;
+    background-size: 130px;
+    font-size: 12px;
+  }
+
+  .promo__item_time .discount {
+    right: 5px;
+    bottom: 5px;
+  }
+
+  .promo__item_sneakers {
+    grid-column: 1 / 3;
+    background-size: 280px 118px;
+  }
+
+  .promo__item_sneakers .discount {
+    top: 5px;
+    left: 5px;
+  }
+
+  .promo__item_offer {
+    grid-column: 1 / 3;
+    grid-row: 3;
+    padding: 234px 10px 10px 10px;
+    background-size: 280px;
+  }
+
+  .promo__description_block {
+    max-width: 260px;
+    max-height: 36px;
+    padding: 9px 25px;
+    border-radius: 8px;
+    font-size: 12px;
+  }
+
+  .promo__description_block .word-wrapper {
+    font-size: 1rem;
+  }
+
+  .promo__item_presents {
+    grid-column: 1 / 3;
+    grid-row: 4;
+    padding: 88px 89px 16px 10px;
+    background-size: 280px 118px;
+    font-size: 12px;
+  }
+
+  .promo__item_december {
+    grid-column: 1 / 3;
+    grid-row: 5;
+    padding: 90px 158px 16px 10px;
+    background-size: 280px 118px;
+    font-size: 12px;
+  }
+
+  .promo__item_december .discount {
+    right: 5px;
+    bottom: 5px;
+  }
+
+  
+  .promo__item_woman {
+    grid-column: 1;
+    grid-row: 6 / 8;
+    background-image: url("../img/promo/promo__list/woman.jpg");
+    background-size: 130px 280px;
+  }
+  
+  .promo__item_woman .discount {
+    right: 10px;
+    bottom: 10px;
+  }
+  
+  .promo__item_chem {
+    grid-column: 2;
+    grid-row: 6;
+    padding: 108px 10px 10px 9px;
+    background-size: 130px;
+  }
+
+  .promo__item_chem .promo__description {
+    font-size: 12px
+  }
+
+  .promo__item_chem .discount {
+    left: 5px;
+    top: 5px;
+  }
+  
+  .promo__item_end {
+    grid-column: 2;
+    grid-row: 7;
+    background-image: url("../img/promo/promo__list/tree-toys.jpg");
+    background-size: 130px;
+  }
+
+  .promo__item_new-year {
+    grid-column: 1 / 3;
+    grid-row: 8;
+    padding: 83px 15px 10px;
+    background-size: 280px 123px;
+  }
+
+  .promo__item_new-year .promo__description {
+    max-width: 250px;
+    max-height: 30px;
+    padding: 9px 41px 9px;
+    border-radius: 8px;
+    font-size: 12px;
+  }
+}

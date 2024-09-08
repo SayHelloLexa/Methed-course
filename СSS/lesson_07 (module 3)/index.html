@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS/index.css">
+  <title>Shop Online</title>
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <a href="#" class="logo">Shop<span class="second-word">Online</span></a>
+
+      <button class="burger-menu" type="button">
+        <img src="img/header/burger-menu/sort.svg" alt="иконка бургерного меню">
+        Меню
+      </button>
+
+      <form action="#" class="search-form">
+        <input class="search-form__search-span" type="text" name="search-span" id="search" placeholder="Я ищу...">
+
+        <button class="search-form__search-btn" type="submit">
+          <img src="img/header/search-btn/search.svg" alt="иконка на кнопке поиска">
+        </button>
+      </form>
+
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"> 
+            <a class="nav__link" href="#"> <img src="img/header/nav/person-icon.svg" alt="иконка профиля"> Профиль</a>
+            <a class="nav__link nav__link_icon" href="#"> <img src="img/header/nav/person-icon.svg" alt="иконка профиля"></a>
+          </li>
+          <li class="nav__item"> 
+            <a class="nav__link" href="#"> <img src="img/header/nav/basket-icon.svg" alt="иконка корзины товаров"> Корзина</a>
+            <a class="nav__link nav__link_icon" href="#"> <img src="img/header/nav/basket-icon.svg" alt="иконка корзины товаров"></a>
+          </li>
+          <li class="nav__item"> 
+            <a class="nav__link" href="#"> <img src="img/header/nav/favorite-icon.svg" alt="иконка избранного"> Избранное</a>
+            <a class="nav__link nav__link_icon" href="#"> <img src="img/header/nav/favorite-icon.svg" alt="иконка избранного"></a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="discount-ad">
+      <div class="container discount-ad__container">
+        <h1 class="main-discount">-50% на все ноутбуки</h1>
+
+        <div class="timer">
+          <p class="timer__heading">
+            До конца акции:
+          </p>
+
+          <ul class="timer__list">
+            <li class="timer__list-item"><span class="count">3</span> <span class="unit">дня</span></li>
+            <li class="timer__list-item"><span class="count">8</span> <span class="unit">часов</span></li>
+            <li class="timer__list-item"><span class="count">43</span>  <span class="unit">минуты</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="promo">
+      <div class="container">
+        <ul class="promo__list">
+          <li class="promo__item promo__item_book"><p class="promo__description"><span class="word-wrapper">Книга</span> <span class="word-wrapper_hyphen">-</span> <br> лучший подарок</p></li>
+          <li class="promo__item promo__item_time"><p class="promo__description">Время скидок! <div class="discount">-25%</div></p></li>
+          <li class="promo__item promo__item_offer"><p class="promo__descripion promo__description_block">Вторая пара кроссовок <span class="word-wrapper">в подарок!</span></p></li>
+          <li class="promo__item promo__item_presents"><p class="promo__description">Идеи новогодних подарков</p></li>
+          <li class="promo__item promo__item_sneakers"><p class="discount">-40%</p></li>
+          <li class="promo__item promo__item_december"><p class="promo__description">Выгодно в декабре!</p> <div class="discount">-15%</div></li>
+          <li class="promo__item promo__item_new-year"><p class="promo__description">Новогодние украшения</p></li>
+          <li class="promo__item promo__item_woman"><div class="discount">-55%</div></li>
+          <li class="promo__item promo__item_chem"><div class="discount">-25%</div> <p class="promo__description">На бытовую химию</p></li>
+          <li class="promo__item promo__item_end"></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

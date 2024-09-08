@@ -1,0 +1,167 @@
+.discount-ad {
+  padding-top: 45px;
+  padding-bottom: 30px;
+  font-family: var(--font-family);
+  font-weight: 700;
+  color: var(--white);
+}
+
+.discount-ad__container {
+  min-height: 480px;
+  padding-top: 160px;
+  background-image: url(../img/discount-ad/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-discount {
+  margin-bottom: 110px;
+  padding-left: 112px;
+  font-size: 70px;
+}
+
+.timer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 5px;
+}
+
+.timer__heading {
+  font-size: 1rem;
+}
+
+.timer__list {
+  display: flex;
+  column-gap: 30px;
+}
+
+.timer__list-item {
+  display: flex;
+  align-items: baseline;
+  column-gap: 6px;
+  font-size: 60px;
+}
+
+.unit {
+  font-size: 32px;
+}
+
+@media (max-width: 1024px) {
+  .discount-ad {
+    padding-top: 30px;
+    padding-bottom: 11px;
+  }
+
+  .discount-ad__container {
+    min-height: 314px;
+    padding-top: 89px;
+    background-size: 940px 314px;
+  }
+
+  .main-discount {
+    max-width: 402px;
+    padding-left: 79px;
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+
+  .timer {
+    row-gap: 15px;
+  }
+
+  .timer__list-item {
+    font-size: 40px;
+  }
+
+  .unit {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .discount-ad {
+    padding-top: 25px;
+    padding-bottom: 20px;
+  }
+
+  .discount-ad__container {
+    min-height: 280px;
+    padding-top: 69px;
+    padding-bottom: 30px;
+    border-radius: 16px;
+    background-size: 700px 280px;
+  }
+
+  .main-discount {
+    padding-left: 80px;
+  }
+
+  .main-discount {
+    font-size: 30px;
+    margin-bottom: 82px;
+  }
+
+  .timer {
+    row-gap: 10px;
+  }
+
+  .timer__heading {
+    font-size: 12px;
+  }
+
+  .timer__list {
+    column-gap: 10px;
+  }
+
+  .timer__list-item {
+    font-size: 30px;
+  }
+
+  .unit {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .discount-ad {
+    padding-top: calc(41px / 2);
+    padding-bottom: calc(20px / 2);
+  }
+
+  .discount-ad__container {
+    min-height: 340px;
+    padding-top: 54px;
+    padding-bottom: 30px;
+    border-radius: 8px;
+    background-image: url("../img/discount-ad/banner_320.jpg");
+    background-size: 280px 340px;
+  }
+
+  .main-discount {
+    margin-bottom: 191px;
+    padding-left: 29px;
+    padding-right: 29px;
+    font-size: 22px;
+  }
+
+  .timer {
+    row-gap: 6px;
+  }
+
+  .timer__heading {
+    font-size: 8px;
+  }
+
+  .timer__list {
+    column-gap: 8px;
+  }
+
+  .timer__list-item {
+    font-size: 20px
+  }
+
+  .unit {
+    font-size: 12px
+  }
+}
