@@ -40,11 +40,16 @@
 
 @media (max-width: 1200px) {
   .footer {
-    padding-top: 49px;
+    padding-top: 38px;
     padding-bottom: 49px;
   }
 
+  .footer__first-col {
+    margin-right: 194px;
+  }
+
   .footer__creator {
+    margin-right: 213px;
     opacity: 0.5;
   }
 }
@@ -61,15 +66,17 @@
 
 @media (max-width: 576px) {
   .footer {
-    padding-top: 25px;
+    padding-top: 24px;
     padding-bottom: 0;
   }
 
   .container_display_flex {
+    
     padding-bottom: 25px;
   }
 
   .footer__first-col {
+    margin: 0;
     column-gap: 9px;
   }
 
@@ -83,6 +90,12 @@
 
   .footer__row {
     display: block;
+    padding-top: 17px;
+  }
+
+  .footer__creator {
+    margin: 0;
+    font-size: 11px;
   }
 }
 

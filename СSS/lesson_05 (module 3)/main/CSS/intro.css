@@ -3,7 +3,6 @@
   padding-bottom: 120px;
   background-image: url("../img/header/background.jpg");
   background-position: center;
-  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -42,11 +41,12 @@
   align-items: center;
   margin: 0 auto;
   width: 200px;
-  height: 48px;
+  height: 45px;
 }
 
 @media (max-width: 1200px) {
   .intro {
+    background-size: 1024px 528px;
     padding-top: 26px;
     padding-bottom: 70px;
   }
@@ -55,17 +55,22 @@
     margin-bottom: 70px;
   }
 
+  .logo {
+    width: 60px;
+  }
+
   .lead {
     padding-left: 92px;
     padding-right: 92px;
   }
 
   .lead__title {
+    margin-bottom: 31px;
     font-size: 40px;
   }
 
   .lead__paragraph {
-    margin-bottom: 60px;
+    margin-bottom: 56px;
     font-size: 18px;
   }
 }
@@ -124,7 +129,8 @@
 
 @media (max-width: 576px) {
   .intro {
-    background-position: left;
+    background-image: url("../img/header/background\ \(320px\).jpg");
+    background-size: cover;
     padding-top: 15px;
     padding-bottom: 65px;
   }
@@ -144,16 +150,17 @@
 
   .lead__title {
     font-size: 20px;
-    margin-bottom: 23px;
+    margin-bottom: 26px;
   }
 
   .lead__paragraph {
     height: 77px;
-    margin-bottom: 54px;
+    margin-bottom: 56px;
     overflow: hidden;
   }
 
   .lead__btn {
     width: 160px;
+    height: 38px;
   }
 }
