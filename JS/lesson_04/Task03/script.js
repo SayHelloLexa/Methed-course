@@ -1,11 +1,11 @@
 let finalSum = (cartSum, quantityOfGoods, promo) => {
   if (quantityOfGoods > 10) {
     cartSum -= cartSum * 0.03;
-  };
+  }
 
   if (cartSum > 30000) {
     cartSum -= (cartSum - 30000) * 0.15;
-  };
+  }
 
   if (promo === 'METHED') {
     cartSum -= cartSum * 0.1;
@@ -15,7 +15,7 @@ let finalSum = (cartSum, quantityOfGoods, promo) => {
     cartSum -= 500;
   }
   
-  return cartSum
+  return cartSum;
 }
 
 console.log(finalSum(40000, 10));
