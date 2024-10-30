@@ -15,8 +15,8 @@ let cart = {
     this.calculateItemPrice();
   },
 
-  increaseCount(number) {
-    this.count += number;
+  increaseCount(productCount) {
+    this.count += productCount;
   },
 
   calculateItemPrice() {
@@ -42,7 +42,5 @@ cart.add('Молоко', 100, 3);
 cart.add('Сметана', 50, 4);
 
 cart.print();
-
 cart.clear();
-
 cart.print();
