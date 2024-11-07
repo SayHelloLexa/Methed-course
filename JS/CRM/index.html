@@ -1,12 +1,127 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CRM</title>
-  <script defer src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,  initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/index.css">
+    <title>CRM</title>
 </head>
 <body>
-  
+
+    <header class="header">
+        <div class="container container_main">
+            <div class="flex-container">
+                <h1 class="header__title">Cms</h1>
+                <p class="total-cost total-cost_header">
+                    Итоговая стоимость:
+                    <span class="total-cost__count">$ 900.00</span>
+                </p>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container container_main">
+            <div class="crm">
+                <nav class="crm__nav">
+                    <ul class="crm__list">
+                        <li class="crm__item">
+                            <div class="flex-container">
+                                <button class="filter"><img src="img/Filter.svg" alt="иконка фильтра"> Фильтр</button>
+
+                                <div class="search-wrapper">
+                                    <img src="img/Search.svg" alt="иконка поиска">
+                                    <input class="crm__search"
+                                           type="search"
+                                           name="search"
+                                           id="search"
+                                           placeholder="Поиск по наименованию и категории"
+                                    >
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="crm__item">
+                            <button class="call-modal">Добавить товар</button>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </main>
+
+    <div class="modal">
+    <button class="modal__exit-button">
+        <img src="img/circle-button.svg" alt="exit">
+    </button>
+
+    <div class="container container_modal">
+        <form
+                class="form"
+                action="https://jsonplaceholder.typicode.com/posts"
+                method="POST"
+        >
+            <h1 class="form__title">Добавить товар</h1>
+
+            <div class="form__content">
+                <div class="input-wrapper input-wrapper_name">
+                    <label class="form__label" for="product-name">Наименование</label>
+                    <input class="form__input" type="text" name="product-name" id="product-name">
+                </div>
+
+                <div class="input-wrapper input-wrapper_category">
+                    <label class="form__label" for="category">Категория</label>
+                    <input class="form__input" type="text" name="category" id="category">
+                </div>
+
+                <div class="input-wrapper input-wrapper_unit">
+                    <label class="form__label" for="units">Единицы измерения</label>
+                    <input class="form__input" type="text" name="units" id="units">
+                </div>
+
+                <div class="input-wrapper input-wrapper_discount">
+                    <label class="form__label" for="discount">Дисконт</label>
+                    <div class="checkbox-container">
+                        <input class="form__input form__input_checkbox" type="checkbox" name="discount" id="discount">
+                        <input class="form__input form__input_disabled" type="text" name="discount-code" disabled>
+                    </div>
+                </div>
+
+                <div class="input-wrapper input-wrapper_description">
+                    <label class="form__label" for="description">Описание</label>
+                    <textarea class="form__textarea" name="description" id="description"></textarea>
+                </div>
+
+                <div class="input-wrapper input-wrapper_count">
+                    <label class="form__label" for="quantity">Количество</label>
+                    <input class="form__input form__input_number" type="number" name="quantity" id="quantity" min="1">
+                </div>
+
+
+                <div class="input-wrapper input-wrapper_price">
+                    <label class="form__label" for="price">Цена</label>
+                    <input class="form__input form__input_number" type="number" name="price" id="price" min="1">
+                </div>
+
+                <div class="input-wrapper input-wrapper_file">
+                    <label class="form__label form__label_file" for="product-img">Добавить изображение</label>
+
+                    <input class="form__input form__input_file"
+                           type="file"
+                           name="product"
+                           id="product-img"
+                           accept="image/png, image/jpeg"
+                    >
+                </div>
+            </div>
+
+            <div class="sub-wrapper">
+                <p class="total-cost">Итоговая стоимость: <span class="total-cost__count">$ 900.00</span></p>
+
+                <button class="form__submit-button" type="submit">Добавить товар</button>
+            </div>
+        </form>
+    </div>
+</div>
 </body>
 </html>

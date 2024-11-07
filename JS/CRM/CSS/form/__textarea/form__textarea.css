@@ -1,0 +1,9 @@
+.form__textarea {
+  display: block;
+  border: none;
+  border-radius: 6px;
+  width: 250px;
+  height: 112px;
+  resize: none;
+  background: #f4f2ff;
+}

@@ -1,0 +1,6 @@
+.sub-wrapper {
+    display: flex;
+    padding-top: 28px;
+    justify-content: space-between;
+    align-items: center;
+}

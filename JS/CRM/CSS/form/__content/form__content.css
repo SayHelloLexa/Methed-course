@@ -1,0 +1,41 @@
+.form__content {
+  display: grid;
+  grid-template-columns: repeat(2, 250px);
+  grid-template-rows: repeat(5, 75px);
+  column-gap: 24px;
+  padding: 48px 28px 28px 28px;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.input-wrapper_name {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.input-wrapper_category {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.input-wrapper_unit {
+  grid-column: 1;
+  grid-row: 3;
+}
+
+.input-wrapper_discount {
+  grid-column: 1;
+  grid-row: 4;
+}
+
+.input-wrapper_description {
+  grid-column: 2;
+  grid-row: 1 / 3;
+}
+
+.input-wrapper_file {
+  position: relative;
+  grid-column: 2;
+  grid-row: 5;
+  align-self: center;
+}

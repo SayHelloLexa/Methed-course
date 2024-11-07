@@ -1,0 +1,5 @@
+.form__input_disabled {
+  max-width: 200px;
+  margin: 0;
+  background: #eee;
+}

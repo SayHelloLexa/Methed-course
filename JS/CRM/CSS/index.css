@@ -1,0 +1,30 @@
+@import url("normalize.css");
+@import url("global.css");
+
+/*Main-page*/
+@import url("header.css");
+@import url("main.css");
+@import url("crm/crm.css");
+@import url("crm/__nav/crm__nav.css");
+@import url("crm/__list/crm__list.css");
+@import url("crm/__item/crm__item.css");
+@import url("crm/__search/crm__search.css");
+@import url("crm/search-wrapper.css");
+
+
+/*Modal-window*/
+@import url("modal/modal.css");
+@import url("modal/modal__exit-button.css");
+@import url("form/__content/form__content.css");
+@import url("form/__title/form__title.css");
+@import url("form/__label/form__label.css");
+@import url("form/__input/form__input.css");
+@import url("form/checkbox-container.css");
+@import url("form/__input/form__input_checkbox.css");
+@import url("form/__input/form-input_disabled.css");
+@import url("form/__input/form__input_number.css");
+@import url("form/__input/form__input_file.css");
+@import url("form/__textarea/form__textarea.css");
+@import url("form/sub-wrapper.css");
+@import url("form/total-cost.css");
+@import url("form/__submit-button/form__submit-button.css");

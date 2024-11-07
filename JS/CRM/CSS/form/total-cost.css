@@ -1,0 +1,11 @@
+.total-cost {
+    font-weight: 500;
+    font-size: 14px;
+    color: #6e6893;
+}
+
+.total-cost__count {
+    font-weight: 700;
+    font-size: 18px;
+    color: #6d5bd0
+}

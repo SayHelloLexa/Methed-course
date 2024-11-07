@@ -1,0 +1,18 @@
+.crm__nav {
+    padding: 15px 20px;
+}
+
+.filter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+    width: 108px;
+    height: 40px;
+    border-radius: 6px;
+    border: 1px solid #c6c2de;
+    font-weight: 400;
+    font-size: 16px;
+    color: #25213b;
+}
+

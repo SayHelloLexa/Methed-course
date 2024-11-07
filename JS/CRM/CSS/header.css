@@ -1,0 +1,17 @@
+.header {
+    padding-top: 79px;
+}
+
+.header .flex-container {
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #c6c2de;
+}
+
+.header__title {
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #6e6893;
+}

@@ -1,0 +1,10 @@
+.form__input_file {
+    position: relative;
+    width: 250px;
+    height: 39px;
+    border-radius: 6px;
+    content-visibility: hidden;
+    font-size: 0;
+    background: #6d5bd0;
+    cursor: pointer;
+}

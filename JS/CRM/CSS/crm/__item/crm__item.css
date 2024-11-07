@@ -1,0 +1,15 @@
+.crm__item .flex-container {
+    column-gap: 20px;
+    align-items: center;
+}
+
+.call-modal {
+    width: 181px;
+    height: 39px;
+    border-radius: 6px;
+    background: #6d5bd0;
+    font-weight: 600;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #fff;
+}

@@ -1,0 +1,8 @@
+.form__input {
+  display: block;
+  border: none;
+  border-radius: 6px;
+  width: 250px;
+  height: 40px;
+  background: #f4f2ff;
+}
