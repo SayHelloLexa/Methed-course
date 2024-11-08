@@ -43,35 +43,53 @@
 
                 // Обрабатываем ходы пользователя и компьютера
                 if (ARRAY_OF_STONE.includes(userAnswer) && computerAnswer === lang[0]) {
-                    alert('Компьютер: ' + computerAnswer + '\n' + 'Вы: ' + 'rock \n Ничья');
+                    language === 'EN' || language === 'ENG' ?
+                        alert('Компьютер: ' + computerAnswer + '\n' + 'Вы: ' + 'rock \n Ничья') :
+                        alert('Компьютер: ' + computerAnswer + '\n' + 'Вы: ' + 'камень \n Ничья');
                 } else if (ARRAY_OF_STONE.includes(userAnswer) && computerAnswer === lang[1]) {
                     result.player++;
 
-                    alert('Компьютер: ' + computerAnswer + '\n' + 'Вы: ' + 'rock \n Вы победили');
+                    language === 'EN' || language === 'ENG' ?
+                        alert('Компьютер: ' + computerAnswer + '\n' + 'Вы: ' + 'rock \n Вы победили') :
+                        alert('Компьютер: ' + computerAnswer + '\n' + 'Вы: ' + 'камень \n Вы победили');
                 } else if (ARRAY_OF_STONE.includes(userAnswer) && computerAnswer === lang[2]) {
                     result.computer++;
 
-                    alert('Компьютер: ' + computerAnswer + '\n' + 'Вы: ' + 'rock \n Компьютер победил');
+                    language === 'EN' || language === 'ENG' ?
+                        alert('Компьютер: ' + computerAnswer + '\n' + 'Вы: ' + 'rock \n Компьютер победил') :
+                        alert('Компьютер: ' + computerAnswer + '\n' + 'Вы: ' + 'камень \n Компьютер победил');
                 } else if (ARRAY_OF_SCISSOR.includes(userAnswer) && computerAnswer === lang[1]) {
-                    alert('Компьютер: ' + computerAnswer + '\n' + 'Вы: ' + 'scissors \n Ничья');
+                    language === 'EN' || language === 'ENG' ?
+                        alert('Компьютер: ' + computerAnswer + '\n' + 'Вы: ' + 'scissors \n Ничья') :
+                        alert('Компьютер: ' + computerAnswer + '\n' + 'Вы: ' + 'ножницы \n Ничья');
                 } else if (ARRAY_OF_SCISSOR.includes(userAnswer) && computerAnswer === lang[2]) {
                     result.player++;
 
-                    alert('Компьютер: ' + computerAnswer + '\n' + 'Вы: ' + 'scissors \n Вы победили');
+                    language === 'EN' || language === 'ENG' ?
+                        alert('Компьютер: ' + computerAnswer + '\n' + 'Вы: ' + 'scissors \n Вы победили') :
+                        alert('Компьютер: ' + computerAnswer + '\n' + 'Вы: ' + 'ножницы \n Вы победили');
                 } else if (ARRAY_OF_SCISSOR.includes(userAnswer) && computerAnswer === lang[0]) {
                     result.computer++;
 
-                    alert('Компьютер: ' + computerAnswer + '\n' + 'Вы: ' + 'scissors \n Компьютер победил');
+                    language === 'EN' || language === 'ENG' ?
+                        alert('Компьютер: ' + computerAnswer + '\n' + 'Вы: ' + 'scissors \n Компьютер победил') :
+                        alert('Компьютер: ' + computerAnswer + '\n' + 'Вы: ' + 'ножницы \n Компьютер победил');
                 } else if (ARRAY_OF_PAPER.includes(userAnswer) && computerAnswer === lang[2]) {
-                    alert('Компьютер: ' + computerAnswer + '\n' + 'Вы: ' + 'paper \n Ничья');
+                    language === 'EN' || language === 'ENG' ?
+                        alert('Компьютер: ' + computerAnswer + '\n' + 'Вы: ' + 'paper \n Ничья') :
+                        alert('Компьютер: ' + computerAnswer + '\n' + 'Вы: ' + 'бумага \n Ничья');
                 } else if (ARRAY_OF_PAPER.includes(userAnswer) && computerAnswer === lang[0]) {
                     result.player++;
 
-                    alert('Компьютер: ' + computerAnswer + '\n' + 'Вы: ' + 'paper \n Вы победили');
+                    language === 'EN' || language === 'ENG' ?
+                        alert('Компьютер: ' + computerAnswer + '\n' + 'Вы: ' + 'paper \n Вы победили') :
+                        alert('Компьютер: ' + computerAnswer + '\n' + 'Вы: ' + 'бумага \n Вы победили');
                 } else if (ARRAY_OF_PAPER.includes(userAnswer) && computerAnswer === lang[1]) {
                     result.computer++;
 
-                    alert('Компьютер: ' + computerAnswer + '\n' + 'Вы: ' + 'paper \n Компьютер победил');
+                    language === 'EN' || language === 'ENG' ?
+                        alert('Компьютер: ' + computerAnswer + '\n' + 'Вы: ' + 'paper \n Компьютер победил') :
+                        alert('Компьютер: ' + computerAnswer + '\n' + 'Вы: ' + 'бумага \n Компьютер победил');
                 } else if (!ARRAY_OF_STONE.includes(userAnswer) || !ARRAY_OF_SCISSOR.includes(userAnswer) ||
                     !ARRAY_OF_PAPER.includes(userAnswer)) {
                     return start();

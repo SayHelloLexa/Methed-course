@@ -1,4 +1,5 @@
 'use strict';
 
-const startGame = window.RPS('EN');
+const language = prompt("Для игры на английском введите ENG или EN");
+const startGame = window.RPS(language);
 startGame();
