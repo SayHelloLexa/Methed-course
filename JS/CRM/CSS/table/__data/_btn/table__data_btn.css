@@ -1,0 +1,7 @@
+.table__data_btn {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    padding-right: 0;
+    padding-left: 50px;
+}

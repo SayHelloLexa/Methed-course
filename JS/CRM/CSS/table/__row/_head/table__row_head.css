@@ -1,0 +1,12 @@
+.table__row_head {
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #6e6893;
+}
+
+.table__row_head th {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}

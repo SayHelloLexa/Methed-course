@@ -1,9 +1,8 @@
 .crm__search {
-    position: relative;
     width: 392px;
     height: 40px;
     padding-left: 40px;
     border-radius: 6px;
     border: none;
-    background: #f4f2ff;
+    background: #f4f2ff url("../../../img/Search.svg") no-repeat 10px 10px;
 }
