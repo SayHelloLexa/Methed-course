@@ -31,7 +31,12 @@
 @import url("table/__data/_price/table__data_price.css");
 @import url("table/__data/_sum/table__data_sum.css");
 @import url("table/__data/_btn/table__data_btn.css");
-
+@import url("crm/__foot/crm__foot.css");
+@import url("foot/__list/foot__list.css");
+@import url("foot/__item/foot__item.css");
+@import url("foot/__item/_flex/foot__item_flex.css");
+@import url("foot/__item/_first-col/foot__item_first-col.css");
+@import url("foot/__item/_end-col/foot__item_end-col.css");
 
 /*Modal-window*/
 @import url("modal/modal.css");
