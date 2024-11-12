@@ -7,3 +7,19 @@
   box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
   background: #f2f0f9;
 }
+
+@media (max-width: 660px) {
+  .modal {
+    max-width: 386px;
+    padding-left: 56px;
+    padding-right: 56px;
+  }
+}
+
+@media (max-width: 435px) {
+  .modal {
+    max-width: 320px;
+    padding-left: 26px;
+    padding-right: 26px;
+  }
+}

@@ -30,3 +30,13 @@
     left: 40px;
   }
 }
+
+@media (max-width: 768px) {
+  .form__label {
+    font-size: 8px;
+  }
+
+  .form__label_file {
+    left: 55px;
+  }
+}

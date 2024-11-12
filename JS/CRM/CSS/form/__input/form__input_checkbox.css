@@ -42,3 +42,16 @@
     height: 35px;
   }
 }
+
+@media (max-width: 768px) {
+  .form__input_checkbox {
+    width: 25px;
+    height: 25px;
+  }
+
+  .form__input_checkbox:after {
+    top: 5px;
+    left: 6px;
+    width: 14px;
+  }
+}

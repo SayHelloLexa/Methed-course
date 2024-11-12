@@ -9,3 +9,13 @@
     font-size: 18px;
     color: #6d5bd0
 }
+
+@media (max-width: 768px) {
+    .total-cost {
+        font-size: 12px;
+    }
+
+    .total-cost__count {
+        font-size: 1rem;
+    }
+}

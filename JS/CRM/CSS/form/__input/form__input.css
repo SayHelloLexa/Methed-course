@@ -13,3 +13,9 @@
     height: 35px;
   }
 }
+
+@media (max-width: 768px) {
+  .form__input {
+    height: 25px;
+  }
+}

@@ -19,3 +19,10 @@
     font-size: 14px;
   }
 }
+
+@media (max-width: 768px) {
+  .form__submit-button {
+    width: 165px;
+    font-size: 12px;
+  }
+}

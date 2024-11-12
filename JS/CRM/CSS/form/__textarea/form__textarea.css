@@ -14,3 +14,9 @@
     height: 100px;
   }
 }
+
+@media (max-width: 768px) {
+  .form__textarea {
+    height: 70px;
+  }
+}
