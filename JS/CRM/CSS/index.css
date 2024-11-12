@@ -1,3 +1,4 @@
+/* Normalize and global styles */
 @import url("normalize.css");
 @import url("global.css");
 
@@ -32,10 +33,13 @@
 @import url("foot/__item/_end-col/foot__item_end-col.css");
 
 /*Modal-window*/
+@import url("overlay.css");
 @import url("modal/modal.css");
 @import url("modal/modal__exit-button.css");
+@import url("form/form.css");
 @import url("form/__content/form__content.css");
 @import url("form/__title/form__title.css");
+@import url("form/__product-id/form__product-id.css");
 @import url("form/__label/form__label.css");
 @import url("form/__input/form__input.css");
 @import url("form/checkbox-container.css");

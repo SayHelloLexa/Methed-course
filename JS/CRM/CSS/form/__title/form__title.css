@@ -10,7 +10,7 @@
 .form__title:after {
   content: "";
   position: absolute;
-  top: 82px;
+  top: 45px;
   display: block;
   width: 580px;
   height: 1px;
