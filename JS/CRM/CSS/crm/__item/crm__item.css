@@ -4,12 +4,25 @@
 }
 
 .call-modal {
-    width: 181px;
+    width: 173px;
     height: 39px;
     border-radius: 6px;
     background: #6d5bd0;
     font-weight: 600;
-    font-size: 1rem;
+    font-size: 14px;
     text-transform: uppercase;
     color: #fff;
+    transition: background-color .2s linear;
+}
+
+.call-modal:hover {
+    background: #483c8a;
+}
+
+@media (max-width: 768px) {
+    .call-modal {
+        width: 160px;
+        height: 35px;
+        font-size: 11px;
+    }
 }

@@ -8,49 +8,85 @@
 </head>
 <body>
 
-  <div class="modal">
-    <button class="modal__exit-button">
-      <img src="img/circle-button.svg" alt="exit">
-    </button>
+  <div class="overlay">
+    <div class="modal">
+        <button class="modal__exit-button" type="button" title="Закрыть">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M2 2L22 22" stroke="#6E6893" stroke-width="3" stroke-linecap="round" />
+                <path d="M2 22L22 2" stroke="#6E6893" stroke-width="3" stroke-linecap="round" />
+            </svg>
+        </button>
 
-    <div class="container">
-      <form
-      class="form" 
-      action="https://jsonplaceholder.typicode.com/posts"
-      method="POST"
-      >
-        <h1 class="form__title">Добавить товар</h1>
+        <div class="container container_modal">
+            <form
+                class="form"
+                action="https://jsonplaceholder.typicode.com/posts"
+                method="POST"
+            >
+                <h1 class="form__title">Изменить товар</h1>
 
-        <div class="form__content">
-          <label class="form__label" for="product-name">Наименование</label>
-          <input class="form__input" type="text" name="product-name" id="product-name">
+                <p class="form__product-id">id: 201910241</p>
 
-          <label class="form__label" for="category">Категория</label>
-          <input class="form__input" type="text" name="category" id="category">
+                <div class="form__content">
+                    <div class="input-wrapper input-wrapper_name">
+                        <label class="form__label" for="product-name">Наименование</label>
+                        <input class="form__input" type="text" name="product-name" id="product-name">
+                    </div>
 
-          <label class="form__label" for="units">Единицы измерения</label>
-          <input class="form__input" type="text" name="units" id="units">
+                    <div class="input-wrapper input-wrapper_category">
+                        <label class="form__label" for="category">Категория</label>
+                        <input class="form__input" type="text" name="category" id="category">
+                    </div>
 
-          <label class="form__label" for="discount">Дисконт</label>
-          <div class="checkbox-container">
-            <input class="form__input form__input_checkbox" type="checkbox" name="discount" id="discount">
-            <input class="form__input form__input_disabled" type="text" name="discount-code" disabled>
-          </div>
-          
-          <label class="form__label" for="description">Описание</label>
-          <textarea class="form__textarea" name="description" id="description"></textarea>
+                    <div class="input-wrapper input-wrapper_unit">
+                        <label class="form__label" for="units">Единицы измерения</label>
+                        <input class="form__input" type="text" name="units" id="units">
+                    </div>
 
-          <label class="form__label" for="quantity">Количество</label>
-          <input class="form__input form__input_number" type="number" name="quantity" id="quantity" min="1">
+                    <div class="input-wrapper input-wrapper_discount">
+                        <label class="form__label" for="discount">Дисконт</label>
 
-          <label class="form__label" for="price">Цена</label>
-          <input class="form__input form__input_number" type="number" name="price" id="price" min="1">
+                        <div class="checkbox-container">
+                            <input class="form__input form__input_checkbox" type="checkbox" name="discount" id="discount">
+                            <input class="form__input form__input_disabled" type="text" name="discount-code" disabled>
+                        </div>
+                    </div>
+
+                    <div class="input-wrapper input-wrapper_description">
+                        <label class="form__label" for="description">Описание</label>
+                        <textarea class="form__textarea" name="description" id="description"></textarea>
+                    </div>
+
+                    <div class="input-wrapper input-wrapper_count">
+                        <label class="form__label" for="quantity">Количество</label>
+                        <input class="form__input form__input_number" type="number" name="quantity" id="quantity" min="1">
+                    </div>
+
+
+                    <div class="input-wrapper input-wrapper_price">
+                        <label class="form__label" for="price">Цена</label>
+                        <input class="form__input form__input_number" type="number" name="price" id="price" min="1">
+                    </div>
+
+                    <div class="input-wrapper input-wrapper_file">
+                        <label class="form__label form__label_file" for="product-img">Добавить изображение</label>
+
+                        <input class="form__input form__input_file"
+                            type="file"
+                            name="product"
+                            id="product-img"
+                            accept="image/png, image/jpeg"
+                        >
+                    </div>
+                </div>
+
+                <div class="sub-wrapper">
+                    <p class="total-cost">Итоговая стоимость: <span class="total-cost__count">$ 900.00</span></p>
+
+                    <button class="form__submit-button" type="submit">Добавить товар</button>
+                </div>
+            </form>
         </div>
-
-        <div class="form__button-container">
-          <button class="form__submit-button" type="submit">Добавить товар</button>
-        </div>
-      </form>
     </div>
   </div>    
 </body>

@@ -2,4 +2,13 @@
   position: absolute;
   top: 20px;
   right: 30px;
+  transition: all .2s linear;
+}
+
+.modal__exit-button svg path {
+  transition: stroke .2s linear;
+}
+
+.modal__exit-button svg:hover path {
+  stroke: #3d3763;
 }

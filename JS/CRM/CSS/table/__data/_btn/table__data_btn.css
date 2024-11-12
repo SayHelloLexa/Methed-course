@@ -5,3 +5,10 @@
     padding-right: 0;
     padding-left: 50px;
 }
+
+@media (max-width: 992px) {
+    .table__data_btn img {
+        width: 15px;
+        height: 15px;
+    }
+}

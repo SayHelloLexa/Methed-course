@@ -95,3 +95,27 @@ iframe {
 .container_modal {
   padding-top: 32px;
 }
+
+@media (max-width: 1144px) {
+  .container_main {
+    max-width: 1024px;
+  }
+}
+
+@media (max-width: 1065px) {
+  .container_main {
+    max-width: 940px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container_main {
+    max-width: 768px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container_main {
+    max-width: 625px;
+  }
+}

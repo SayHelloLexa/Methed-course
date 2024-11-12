@@ -1,6 +1,12 @@
 .table__data {
-    padding-top: 21px;
+    padding-top: 19px;
     padding-bottom: 22px;
-    padding-left: 15px;
-    font-size: 14px;
+    padding-left: 12px;
+    font-size: 12px;
+}
+
+@media (max-width: 992px) {
+    .table__data {
+        font-size: 10px;
+    }
 }

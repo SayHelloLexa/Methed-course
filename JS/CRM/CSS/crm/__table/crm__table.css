@@ -1,5 +1,5 @@
 .crm__table {
-    width: 100%;
+    min-width: 1100px;
 }
 
 .crm__table, td, th {

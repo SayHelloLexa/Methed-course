@@ -2,9 +2,14 @@
   border-radius: 6px;
   width: 200px;
   height: 39px;
+  background: #6d5bd0;
   font-weight: 600;
   font-size: 16px;
   text-transform: uppercase;
   color: #fff;
-  background: #6d5bd0;
+  transition: background-color .2s linear;
+}
+
+.form__submit-button:hover {
+  background: #483c8a;
 }

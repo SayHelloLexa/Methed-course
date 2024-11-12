@@ -1,8 +1,17 @@
 .crm__search {
-    width: 392px;
+    width: 368px;
     height: 40px;
     padding-left: 40px;
     border-radius: 6px;
     border: none;
     background: #f4f2ff url("../../../img/Search.svg") no-repeat 10px 10px;
+}
+
+@media (max-width: 768px) {
+    .crm__search {
+        width: 245px;
+        height: 35px;
+        background: #f4f2ff url("../../../img/Search.svg") no-repeat 10px 10px / 15px;
+        font-size: 10px;
+    }
 }

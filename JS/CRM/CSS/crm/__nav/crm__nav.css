@@ -17,3 +17,19 @@
     color: #25213b;
 }
 
+.filter:hover {
+    color: #7468b6;
+}
+
+@media (max-width: 768px) {
+    .filter {
+        width: 100px;
+        height: 35px;
+        font-size: 15px;
+    }
+
+    .filter img {
+        width: 15px;
+        height: 15px;
+    }
+}
