@@ -39,3 +39,12 @@
   grid-row: 5;
   align-self: center;
 }
+
+@media (max-width: 1065px) {
+  .form__content {
+    grid-template-columns: repeat(2, 228px);
+    grid-template-rows: repeat(5, 65px);
+  }
+
+  
+}

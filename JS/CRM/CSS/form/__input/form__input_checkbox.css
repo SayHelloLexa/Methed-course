@@ -36,5 +36,9 @@
   background-color: #cccccc;
 }
 
-
-
+@media (max-width: 1065px) {
+  .form__input_checkbox {
+    width: 37px;
+    height: 35px;
+  }
+}

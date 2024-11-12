@@ -15,3 +15,22 @@
         font-size: 10px;
     }
 }
+
+@media (max-width: 660px) {
+    .crm__search {
+        width: 190px;
+        height: 30px;
+        padding-left: 35px;
+        background-size: 10px;
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 435px) {
+    .crm__search {
+        width: 125px;
+        padding-left: 20px;
+        background-size: 8px;
+        background-position: 8px 10px;
+    }
+}

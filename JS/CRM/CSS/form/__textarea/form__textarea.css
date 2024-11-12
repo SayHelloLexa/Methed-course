@@ -7,3 +7,10 @@
   resize: none;
   background: #f4f2ff;
 }
+
+@media (max-width: 1065px) {
+  .form__textarea {
+    width: 228px;
+    height: 100px;
+  }
+}

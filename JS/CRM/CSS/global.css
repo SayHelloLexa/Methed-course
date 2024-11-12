@@ -119,3 +119,15 @@ iframe {
     max-width: 625px;
   }
 }
+
+@media (max-width: 660px) {
+  .container_main {
+    max-width: 386px;
+  }
+}
+
+@media (max-width: 435px) {
+  .container_main {
+    max-width: 320px;
+  }
+}

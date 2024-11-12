@@ -33,3 +33,22 @@
         height: 15px;
     }
 }
+
+@media (max-width: 660px) {
+    .crm__nav {
+        padding-left: 9px;
+        padding-right: 9px;
+    }
+
+    .filter {
+        width: 75px;
+        height: 30px;
+        column-gap: 8px;
+        font-size: 13px;
+    }
+
+    .filter img {
+        width: 13px;
+        height: 13px;
+    }
+}

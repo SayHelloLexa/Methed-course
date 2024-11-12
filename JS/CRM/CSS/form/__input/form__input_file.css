@@ -13,3 +13,10 @@
 .input-wrapper_file:hover .form__input_file {
     background: #483c8a;
 }
+
+@media (max-width: 1065px) {
+    .form__input_file {
+        width: 228px;
+        height: 35px;
+    }
+}

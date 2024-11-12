@@ -26,3 +26,17 @@
         font-size: 11px;
     }
 }
+
+@media (max-width: 660px) {
+    .call-modal {
+        width: 75px;
+        height: 30px;
+        font-size: 7px;
+    }
+}
+
+@media (max-width: 435px) {
+    .crm__item .flex-container {
+        column-gap: 15px;
+    }
+}

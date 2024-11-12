@@ -13,3 +13,9 @@
 .form__submit-button:hover {
   background: #483c8a;
 }
+
+@media (max-width: 1065px) {
+  .form__submit-button {
+    font-size: 14px;
+  }
+}

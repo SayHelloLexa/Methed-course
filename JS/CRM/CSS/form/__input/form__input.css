@@ -6,3 +6,10 @@
   height: 40px;
   background: #f4f2ff;
 }
+
+@media (max-width: 1065px) {
+  .form__input { 
+    width: 228px;
+    height: 35px;
+  }
+}

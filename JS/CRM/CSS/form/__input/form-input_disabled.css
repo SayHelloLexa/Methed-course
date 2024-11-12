@@ -3,3 +3,9 @@
   margin: 0;
   background: #eee;
 }
+
+@media (max-width: 1065px) {
+  .form__input_disabled {
+    max-width: 175px;
+  }
+}
