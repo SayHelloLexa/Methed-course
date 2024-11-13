@@ -1,5 +1,5 @@
 'use strict';
 
-const game = window.RPS();
+const startGame = window.MRBLS();
 
-game();
+startGame();
